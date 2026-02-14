@@ -1,20 +1,39 @@
 
-# SQL Analytics Practice
+# SQL Analytics Portfolio (MySQL)
 
-This repository demonstrates practical SQL skills used in data analyst roles.
+This repository showcases structured SQL analysis using a realistic employee and department dataset.
 
-## Topics Covered
-- INNER and LEFT JOIN
-- Handling NULL values
-- Aggregations (COUNT, SUM)
+The goal is to demonstrate practical data analyst skills through progressively advanced queries.
+
+---
+
+## Skills Demonstrated
+
+- Joins (INNER JOIN, LEFT JOIN)
+- Aggregations (SUM, AVG, COUNT)
+- CASE statements for categorization
 - GROUP BY and HAVING
-- Business-style analytical queries
+- Subqueries & Correlated Subqueries
+- Window Functions (ROW_NUMBER, RANK, DENSE_RANK)
+- Department-level and company-level salary analysis
 
-## Context
-These queries simulate real-world employee and department analysis,
-similar to reporting and validation tasks performed in professional roles.
-## How to Run
+---
 
-1. Use MySQL (tested on MySQL 8.x).
-2. Run the setup section in `joins_and_aggregations.sql`.
-3. Execute the analytical queries below the setup block.
+## Repository Structure
+
+01_joins_and_aggregations.sql  
+→ Department salary summaries and employee counts  
+
+02_case_groupby_leftjoin.sql  
+→ Salary categorization and NULL handling  
+
+03_subqueries_analysis.sql  
+→ Employees above company average and highest salary per department  
+
+04_window_functions.sql  
+→ Ranking employees within departments and company-wide  
+
+---
+
+## Database Version
+MySQL 8+
