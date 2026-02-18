@@ -33,6 +33,18 @@ The goal is to demonstrate practical data analyst skills through progressively a
 04_window_functions.sql  
 → Ranking employees within departments and company-wide  
 
+# Customer Order Analysis (SQL)
+
+## Concepts Used:
+- Joins
+- Group By
+- Aggregate Functions
+- Window Functions
+- Running Total
+
+## Goal:
+Analyze customer spending behavior.
+
 ---
 
 ## Database Version
