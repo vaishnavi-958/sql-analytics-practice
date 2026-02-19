@@ -20,18 +20,14 @@ The goal is to demonstrate practical data analyst skills through progressively a
 ---
 
 ## Repository Structure
-
-01_joins_and_aggregations.sql  
-→ Department salary summaries and employee counts  
-
-02_case_groupby_leftjoin.sql  
-→ Salary categorization and NULL handling  
-
-03_subqueries_analysis.sql  
-→ Employees above company average and highest salary per department  
-
-04_window_functions.sql  
-→ Ranking employees within departments and company-wide  
+sql-analytics-practice/
+│
+├── 01_joins_and_aggregations.sql
+├── 02_case_groupby_leftjoin.sql
+├── 03_subqueries_analysis.sql
+├── 04_window_functions.sql
+├── sql-customer-order-analysis.sql
+└── README.md 
 
 # Customer Order Analysis (SQL)
 
@@ -49,3 +45,5 @@ Analyze customer spending behavior.
 
 ## Database Version
 MySQL 8+
+SQL Workbench / VS Code
+Git & GitHub for version control
